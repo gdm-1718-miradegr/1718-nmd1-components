@@ -1,3 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .btn{
-    color: darkcyan;
+    border: 1px solid transparent ;
+    /*https://www.materialui.co/colors*/
+    border-radius: 8px;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    border-color: rgb(52, 69, 165);  ;
+    background: rgb(255, 255, 255);
+}
+
+.btn--primary{
+    background:rgba(186,104,200 ,1);
+    color: white;
+}
+
+.btn--secondary{
+    background:rgb(200, 20, 80);
+    color: white; 
+}
+
+.btn--tertiary{
+    background:rgb(52, 69, 165);
+    color: rgb(52, 69, 165); 
+}
+
+.btn--tertiary: hover{
+    background:rgb(52, 69, 165);
+    color: rgb(52, 69, 165); 
 }
